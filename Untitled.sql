@@ -1,0 +1,4 @@
+-- Bypass network policy for DEMO_PAT programmatic access token
+-- Co-authored with CoCo
+ALTER USER QUAMEBAAH123 MODIFY PROGRAMMATIC ACCESS TOKEN DEMO_PAT
+  SET MINS_TO_BYPASS_NETWORK_POLICY_REQUIREMENT = 60;
